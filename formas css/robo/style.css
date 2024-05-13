@@ -1,0 +1,484 @@
+* {
+
+    margin: 0%;
+
+}
+
+.container {
+
+    position: relative;
+    width: 1700px;
+    width: 1000px;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+::before, ::after {
+
+    content: "";
+    position: absolute ;
+
+}
+
+.cabeca {
+
+    width: 113px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 250px;
+
+}
+
+.pescoco {
+
+    width: 23px;
+    height: 16px;
+    background-color: black;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 295px;
+
+}
+
+.tronco {
+
+    width: 118px;
+    height: 63px;
+    background-color: black;
+    position: absolute;
+    margin-top: 346px;
+    margin-left: 250px;
+
+}
+
+.tronco2 {
+
+    width: 105px;
+    height: 34px;
+    background-color: black;
+    position: absolute;
+    margin-top: 409px;
+    margin-left: 257px;
+
+}
+
+.braco {
+
+    width: 23px;
+    height: 79px;
+    background-color: black;
+    border-top-left-radius: 15px;
+    position: absolute;
+    margin-top: 346px;
+    margin-left: 211px;
+
+}
+
+.braco2 {
+
+    width: 23px;
+    height: 79px;
+    background-color: black;
+    border-top-right-radius: 15px;
+    position: absolute;
+    margin-top: 346px;
+    margin-left: 384px;
+
+}
+
+.ombro {
+
+    width: 16px;
+    height: 33px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 346px;
+    margin-left: 234px;
+
+}
+
+.ombro2 {
+
+    width: 16px;
+    height: 33px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 346px;
+    margin-left: 368px;
+    
+
+}
+
+.cotovelo {
+
+    width: 20px;
+    height: 29px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotateZ(-90deg);
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 212px;
+
+}
+
+.cotovelo2 {
+
+    width: 20px;
+    height: 29px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotateZ(-90deg);
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 386px;
+
+}
+
+.antebraco {
+
+    width: 23px;
+    height: 57px;
+    background-color: black;
+    position: absolute;
+    margin-top: 444px;
+    margin-left: 211px;
+
+}
+
+.antebraco2 {
+
+    width: 23px;
+    height: 57px;
+    background-color: black;
+    position: absolute;
+    margin-top: 444px;
+    margin-left: 384px;
+
+}
+
+.coluna {
+
+    width: 24px;
+    height: 29px;
+    background-color: black;
+    position: absolute;
+    margin-top: 443px;
+    margin-left: 295px;
+
+}
+
+.cintura {
+
+    width: 110px;
+    height: 44px;
+    background-color: black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 255px;
+
+}
+
+.cintura2 {
+
+    width: 52px;
+    height: 52px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 283px;
+
+}
+
+.cintura3 {
+
+    width: 47px;
+    height: 28px;
+    background-color: black;
+    transform: rotateZ(-30deg);
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 312px;
+
+}
+
+.cintura4 {
+
+    width: 47px;
+    height: 28px;
+    background-color: black;
+    transform: rotateZ(-145deg);
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 260px;
+
+}
+
+.bola {
+
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    margin-top: 516px;
+    margin-left: 260px;
+
+}
+
+.bola2 {
+
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    margin-top: 516px;
+    margin-left: 335px;
+
+
+}
+
+.perna {
+
+    width: 24px;
+    height: 81px;
+    border-bottom-right-radius: 20px;
+    background-color: black;
+    position: absolute;
+    margin-top: 526px;
+    margin-left: 266px;
+
+}
+
+.perna2 {
+
+    width: 24px;
+    height: 81px;
+    border-bottom-left-radius: 20px;
+    background-color: black;
+    position: absolute;
+    margin-top: 526px;
+    margin-left: 335px;
+
+}
+
+.canela {
+
+    width: 22px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    margin-top: 606px;
+    margin-left: 337px;
+
+}
+
+.canela2 {
+
+    width: 24px;
+    height: 70px;
+    
+    background-color: black;
+    position: absolute;
+    margin-top: 606px;
+    margin-left: 266px;
+
+}
+
+.tornozelo {
+
+    width: 27px;
+    height: 27px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 672px;
+    margin-left: 335px;
+
+}
+
+.tornozelo2 {
+
+    width: 27px;
+    height: 27px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 672px;
+    margin-left: 265px;
+
+}
+
+.pe {
+
+    width: 65px;
+    height: 23px;
+    background-color: black;
+    border-top-left-radius: 15px;
+    position: absolute;
+    margin-top: 692px;
+    margin-left: 226px;
+
+}
+
+.pe2 {
+
+    width: 65px;
+    height: 23px;
+    background-color: black;
+    border-top-right-radius: 15px;
+    position: absolute;
+    margin-top: 692px;
+    margin-left: 335px;
+
+}
+
+
+.mao {
+
+    width: 33px;
+    height: 25px;
+    background-color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    margin-top: 499px;
+    margin-left: 205px;
+    
+
+}
+
+.mao2 {
+
+    width: 37px;
+    height: 26px;
+    background-color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    margin-top: 499px;
+    margin-left: 377px;
+
+}
+
+.dedo {
+
+    width: 11px;
+    height: 37px;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 205px;
+}
+
+.dedo2 {
+
+    width: 11px;
+    height: 37px;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transform: rotateZ(-8deg);
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 217px;
+
+}
+
+.dedo3 {
+
+    width: 11px;
+    height: 37px;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transform: rotateZ(-18deg);
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 230px;
+
+}
+
+.dedo4 {
+
+    width: 11px;
+    height: 37px;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    transform: rotateZ(-28deg);
+    position: absolute;
+    margin-top: 505px;
+    margin-left: 238px;
+
+}
+
+.dedo5 {
+
+    width: 11px;
+    height: 27px;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transform: rotateZ(6deg);
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 370px;
+
+}
+
+.dedo6 {
+
+    width: 11px;
+    height: 37px;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transform: rotateZ(6deg);
+    position: absolute;
+    margin-top: 518px;
+    margin-left: 381px;
+
+}
+
+.dedo7 {
+
+    width: 11px;
+    height: 37px;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transform: rotateZ(1deg);
+    position: absolute;
+    margin-top: 518px;
+    margin-left: 393px;
+
+}
+
+.dedo8 {
+
+    width: 11px;
+    height: 37px;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transform: rotateZ(-8deg);
+    position: absolute;
+    margin-top: 518px;
+    margin-left: 405px;
+
+}

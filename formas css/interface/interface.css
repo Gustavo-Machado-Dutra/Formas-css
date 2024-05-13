@@ -1,0 +1,274 @@
+* {
+
+    margin: 0px;
+
+}
+
+.container {
+
+    display: block;
+    background-color:rgb(197, 197, 197);
+    border-radius: 14px;
+    width: 348px;
+    height: 684px;
+    background-image: linear-gradient(to bottom, rgb(58, 58, 58), rgb(61, 0, 117));
+
+}
+
+.foto {
+
+    display: block;
+    width: 302px;
+    height: 302px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: -630px;
+    margin-left: 24px;
+
+}
+
+.barra {
+
+    display: block;
+    width: 302px;
+    height: 5px;
+    background-color: rgb(243, 243, 243);
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 24px;
+
+}
+
+.bola {
+    
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(152, 108, 255);
+    position: absolute;
+    margin-top: -213px;
+    margin-left: 154px;
+    animation: 9s linear 1s infinite running slidein;
+    
+
+}
+
+.play {
+    
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 144px;
+
+
+}
+
+.play2 {
+
+    display: block;
+    width: 5px;
+    height: 22px;
+    background-color: black;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 165px;
+
+}
+
+.play3 {
+
+    display: block;
+    width: 5px;
+    height: 22px;
+    background-color: black;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 180px;
+
+}
+
+.pular {
+
+    display: block;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 20px solid #ffffff;
+    position: absolute;
+    margin-top: -159px;
+    margin-left: 230px;
+
+}
+
+.pular2 {
+
+    display: block;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-right: 20px solid #ffffff;
+    position: absolute;
+    margin-top: -159px;
+    margin-left: 100px;
+
+}
+
+.skip {
+
+    display: block;
+    width: 6px;
+    height: 35px;
+    position: absolute;
+    background-color: #ffffff;
+    margin-top: -158px;
+    margin-left: 98px;
+
+}
+
+.skip2 {
+
+    display: block;
+    width: 6px;
+    height: 35px;
+    position: absolute;
+    background-color: #ffffff;
+    margin-top: -158px;
+    margin-left: 245px;
+
+}
+
+
+
+.container2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+.container2 {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+}
+  
+  
+.curtir {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 24px; 
+	height: 24px; 
+	background: #ffffff; 
+	clip-path: path("M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z");
+    transition: 0.4s;
+    margin-top: -260px;
+    margin-left: 300px;
+
+}
+  
+  
+  
+.container2 input:checked ~ .curtir {
+    
+    background-color: rgb(152, 108, 255);
+    
+}
+
+
+.artistaemusica p {
+
+    color: rgba(255, 255, 255, 0.986);
+    margin-left: 24px;
+    margin-top: -22px;
+
+}
+
+.seta {
+    
+    width: 3px;
+    height: 15px;
+    background-color: white;
+    border-radius: 9px;
+    transform: rotateZ(42deg);
+    margin-left: 35px;
+    margin-top: -430px;
+
+}
+
+.seta2 {
+    
+    width: 3px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    margin-left: 26px;
+    transform: rotateZ(-46deg);
+    margin-top: -15px;
+
+}
+
+.volume img {
+
+    margin-top: 550px;
+    margin-left: 24px;
+    width: 24px;
+    height: 24px;
+    
+
+}
+
+.volumebarra {
+
+    display: block;
+    width: 200px;
+    height: 5px;
+    border-radius: 6px;
+    background-color: rgb(243, 243, 243);
+    position: absolute;
+    margin-top: -19px;
+    margin-left: 76px;
+
+}
+
+.volumebola {
+    
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(152, 108, 255);
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -22px;
+
+}
+
+.volumebarra2 {
+
+    display: block;
+    width: 78px;
+    height: 5px;
+    border-radius: 6px;
+    background-color: rgb(152, 108, 255);
+    position: absolute;
+    margin-top: -19px;
+    margin-left: 76px;
+
+}
+
+@keyframes slidein {
+    from {
+        transform: translate(0%);
+    }
+    to {
+        transform: translate(1350%);
+    }
+}

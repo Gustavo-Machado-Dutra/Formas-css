@@ -1,0 +1,263 @@
+* {
+
+    margin: 0%;
+
+}
+
+.linha1, .linha2,
+.linha3, .linha4,
+.linha5, .linha6,
+.linha7, .linha8 {
+
+    display: block;
+    width: 734px;
+    height: 4px;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 800px;
+
+}
+
+
+
+.barra {
+
+    display: block;
+    width: 5px;
+    height: 12px;
+    background-color: black;
+    flex-direction: row;
+    margin-left: 861px;
+    position: absolute;
+
+}
+
+.barra2 {
+
+    display: block;
+    width: 5px;
+    height: 12px;
+    background-color: black;
+    flex-direction: row;
+    margin-left: 1014px;
+    
+    position: absolute;
+
+}
+
+.barra3{
+
+    display: block;
+    width: 5px;
+    height: 12px;
+    background-color: black;
+    flex-direction: row;
+    margin-left: 1167px;
+    
+    position: absolute;
+
+}
+
+.barra4 {
+
+    display: block;
+    width: 5px;
+    height: 12px;
+    background-color: black;
+    flex-direction: row;
+    margin-left: 1320px;
+    
+    position: absolute;
+
+}
+
+.barra5 {
+
+    display: block;
+    width: 5px;
+    height: 12px;
+    background-color: black;
+    flex-direction: row;
+    margin-left: 1473px;
+    
+    position: absolute;
+
+
+
+}
+
+.numero {
+
+    display: block;
+    position: absolute;
+    margin-top: -740px;
+    margin-left: 775px;
+
+}
+
+.numero2 {
+
+    display: block;
+    position: absolute;
+    margin-top: -634px;
+    margin-left: 775px;
+
+}
+
+.numero3 {
+
+    display: block;
+    position: absolute;
+    margin-top: -531px;
+    margin-left: 775px;
+}
+
+
+.numero4 {
+
+    display: block;
+    position: absolute;
+    margin-top: -428px;
+    margin-left: 780px;
+}
+
+
+.numero5 {
+
+    display: block;
+    position: absolute;
+    margin-top: -322px;
+    margin-left: 780px;
+}
+
+.numero6 {
+
+    display: block;
+    position: absolute;
+    margin-top: -219px;
+    margin-left: 780px;
+}
+
+.numero7 {
+
+    display: block;
+    position: absolute;
+    margin-top: -114px;
+    margin-left: 780px;
+}
+
+.numero8 {
+
+    display: block;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 780px;
+
+}
+
+.texto {
+
+    display: block;
+    position: absolute;
+    margin-left: 842px;
+    margin-top: 12px
+
+}
+
+.texto2 {
+
+    display: block;
+    position: absolute;
+    margin-left: 1008px;
+    margin-top: 12px
+
+}
+
+.texto3 {
+
+    display: block;
+    position: absolute;
+    margin-left: 1155px;
+    margin-top: 12px
+
+}
+
+.texto4 {
+
+    display: block;
+    position: absolute;
+    margin-left: 1310px;
+    margin-top: 12px
+
+}
+
+.texto5 {
+
+    display: block;
+    position: absolute;
+    margin-left: 1430px;
+    margin-top: 12px
+
+}
+
+.dados {
+
+    display: block;
+    position: absolute;
+    width: 57px;
+    height: 417px;
+    background-color: black;
+    margin-left: 834px;
+    margin-top: -417px;
+
+}
+
+.dados2 {
+
+    display: block;
+    position: absolute;
+    width: 57px;
+    height: 626px;
+    background-color: black;
+    margin-left: 986px;
+    margin-top: -626px;
+
+}
+
+.dados3 {
+
+    display: block;
+    position: absolute;
+    width: 57px;
+    height: 261px;
+    background-color: black;
+    margin-left: 1139px;
+    margin-top: -261px;
+
+
+}
+
+.dados4 {
+
+    display: block;
+    position: absolute;
+    width: 57px;
+    height: 208px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 1292px;
+    margin-top: -208px;
+
+}
+
+.dados5 {
+
+    display: block;
+    position: absolute;
+    width: 57px;
+    height: 104px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 1445px;
+    margin-top: -104px;
+
+}
+
